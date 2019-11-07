@@ -1,0 +1,12 @@
+[c8-media-BaseOS]
+name=CentOS-BaseOS-$releasever - Media
+baseurl=file:///media/CentOS/BaseOS/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+[c8-media-AppStream]
+name=CentOS-AppStream-$releasever - Media
+baseurl=file:///media/CentOS/AppStream/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
